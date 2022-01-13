@@ -1,6 +1,13 @@
 new Vue ({
     el: "#app",
     data: {
-        message:'Hello World',
+        message:'Ciao',
+        immage:"photo",
+        user:'',
+    },
+    methods: {
+        saluto: function() {
+            alert(this.message + ' ' + this.user)
+        }
     }
 })

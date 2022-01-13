@@ -13,7 +13,16 @@
 <body>
     
     <div id="app">
+
         <h1>{{ message }}</h1>
+        
+        <div :class="immage"></div>
+        
+        <input v-model="user">
+        </br>
+        <!-- <span>{{ user }}</span> -->
+
+        <button @click="saluto">Click me!</button>
 
     </div>
 
