@@ -7,7 +7,7 @@ new Vue ({
     },
     methods: {
         saluto: function() {
-            alert(this.message + ' ' + this.user)
+            alert(this.message + ' ' + this.user + ', come stai? :) ')
         }
     }
 })
